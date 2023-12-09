@@ -1,1 +1,62 @@
 /* Add screen styles below */
+body {
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+.instagram {
+    flex-grow: 1;
+    max-width: 5%;
+}
+
+.copyright {
+    flex-grow: 1;
+}
+.linkedin {
+    flex-grow: 1;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.image-grid li {
+    flex-grow: 2;
+}
+
+.IMG1 {
+    width: 10%;
+}
+
+.image-wint {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
