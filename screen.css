@@ -38,6 +38,18 @@ img {
     flex-grow: 1;
 }
 
+.hlist { 
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hlist li {
+    margin: 0 10px;
+}
+
 .image-grid {
     display: flex;
     flex-wrap: wrap;
@@ -62,3 +74,9 @@ img {
     margin: 0;
     padding: 0;
 }
+@media screen and (max-width: 616px) {
+    header ul li {
+      display: block;
+      border-top: 1px solid #011936;
+    }
+  }
