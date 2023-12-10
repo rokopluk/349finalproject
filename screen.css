@@ -55,7 +55,9 @@ img {
 }
 
 .image-wint {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
     list-style-type: none;
     margin: 0;
     padding: 0;
